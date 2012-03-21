@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Firstspeaker:</b>
+  <%= @team.firstspeaker %>
+</p>
+
+<p>
+  <b>Secondspeaker:</b>
+  <%= @team.secondspeaker %>
+</p>
+
+
+<%= link_to 'Edit', edit_team_path(@team) %> |
+<%= link_to 'Back', teams_path %>

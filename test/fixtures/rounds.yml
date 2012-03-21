@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  number: 1
+  firstgovteam: MyString
+  secondgovteam: MyString
+  firstoppteam: MyString
+  secondoppteam: MyString
+  judge: MyString
+  resolution: MyString
+  pm_spkrpnts: 1.5
+  dpm_spkrpnts: 1.5
+  lo_spkrpnts: 1.5
+  dlo_spkrpnts: 1.5
+  mg_spkrpnts: 1.5
+  mo_spkrpnts: 1.5
+  ow_spkrpnts: 1.5
+  gw_spkrpnts: 1.5
+
+two:
+  number: 1
+  firstgovteam: MyString
+  secondgovteam: MyString
+  firstoppteam: MyString
+  secondoppteam: MyString
+  judge: MyString
+  resolution: MyString
+  pm_spkrpnts: 1.5
+  dpm_spkrpnts: 1.5
+  lo_spkrpnts: 1.5
+  dlo_spkrpnts: 1.5
+  mg_spkrpnts: 1.5
+  mo_spkrpnts: 1.5
+  ow_spkrpnts: 1.5
+  gw_spkrpnts: 1.5

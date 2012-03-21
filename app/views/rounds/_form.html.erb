@@ -1,0 +1,77 @@
+<%= form_for(@round) do |f| %>
+  <% if @round.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@round.errors.count, "error") %> prohibited this round from being saved:</h2>
+
+      <ul>
+      <% @round.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :number %><br />
+    <%= f.number_field :number %>
+  </div>
+  <div class="field">
+    <%= f.label :firstgovteam %><br />
+    <%= f.text_field :firstgovteam %>
+  </div>
+  <div class="field">
+    <%= f.label :secondgovteam %><br />
+    <%= f.text_field :secondgovteam %>
+  </div>
+  <div class="field">
+    <%= f.label :firstoppteam %><br />
+    <%= f.text_field :firstoppteam %>
+  </div>
+  <div class="field">
+    <%= f.label :secondoppteam %><br />
+    <%= f.text_field :secondoppteam %>
+  </div>
+  <div class="field">
+    <%= f.label :judge %><br />
+    <%= f.text_field :judge %>
+  </div>
+  <div class="field">
+    <%= f.label :resolution %><br />
+    <%= f.text_field :resolution %>
+  </div>
+  <div class="field">
+    <%= f.label :pm_spkrpnts %><br />
+    <%= f.text_field :pm_spkrpnts %>
+  </div>
+  <div class="field">
+    <%= f.label :dpm_spkrpnts %><br />
+    <%= f.text_field :dpm_spkrpnts %>
+  </div>
+  <div class="field">
+    <%= f.label :lo_spkrpnts %><br />
+    <%= f.text_field :lo_spkrpnts %>
+  </div>
+  <div class="field">
+    <%= f.label :dlo_spkrpnts %><br />
+    <%= f.text_field :dlo_spkrpnts %>
+  </div>
+  <div class="field">
+    <%= f.label :mg_spkrpnts %><br />
+    <%= f.text_field :mg_spkrpnts %>
+  </div>
+  <div class="field">
+    <%= f.label :mo_spkrpnts %><br />
+    <%= f.text_field :mo_spkrpnts %>
+  </div>
+  <div class="field">
+    <%= f.label :ow_spkrpnts %><br />
+    <%= f.text_field :ow_spkrpnts %>
+  </div>
+  <div class="field">
+    <%= f.label :gw_spkrpnts %><br />
+    <%= f.text_field :gw_spkrpnts %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
